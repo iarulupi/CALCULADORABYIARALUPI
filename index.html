@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculadora de Billetes</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="contenedor-principal">
+
+    <div class="calculadora">
+
+        <h1>🧮 CALCULADORA 🧮</h1>
+
+        <!-- Pantalla -->
+        <div id="pantalla">
+            0
+        </div>
+
+        <!-- Billetes -->
+        <div class="botones">
+
+            <button class="billete" data-valor="100">
+                <img src="https://images3.cgb.fr/images/billets/b97/b97_3808a.jpg" alt="Billete de 100 pesos">
+            </button>
+
+            <button class="billete" data-valor="200">
+                <img src="https://images3.cgb.fr/images/billets/b91/b91_6875a.jpg" alt="Billete de 200 pesos">
+            </button>
+
+            <button class="billete" data-valor="500">
+                <img src="https://banknotenews.com/wp-content/uploads/2016/07/Argentina_BCRA_500_pesos_2016.06.30_B421a_P365_A_00000101_f-1536x632.jpg" alt="Billete de 500 pesos">
+            </button>
+
+            <button class="billete" data-valor="1000">
+                <img src="https://images3.cgb.fr/images/billets/b87/b87_0586a.jpg" alt="Billete de 1000 pesos">
+            </button>
+
+            <button class="billete" data-valor="2000">
+                <img src="https://storage.lacapitalmdp.com/2023/05/billete-2000pesos.jpg" alt="Billete de 2000 pesos">
+            </button>
+
+            <button class="billete" data-valor="10000">
+                <img src="https://platform.keesingtechnologies.com/wp-content/uploads/2024/05/AR083R.jpg" alt="Billete de 10000 pesos">
+            </button>
+
+            <button class="billete" data-valor="20000">
+                <img src="https://buenosairesherald.com/wp-content/uploads/2024/11/20000_pesos_bill_banknote_billete_Alberdi.jpg" alt="Billete de 20000 pesos">
+            </button>
+
+<!-- Teclado numérico -->
+<div class="teclado">
+
+    <button class="numero">1</button>
+    <button class="numero">2</button>
+    <button class="numero">3</button>
+
+    <button class="numero">4</button>
+    <button class="numero">5</button>
+    <button class="numero">6</button>
+
+    <button class="numero">7</button>
+    <button class="numero">8</button>
+    <button class="numero">9</button>
+
+    <button class="numero cero">0</button>
+
+</div>
+
+        </div>
+
+
+
+        <!-- Operaciones -->
+        <div class="operaciones">
+
+            <button class="operacion" data-operacion="+">+</button>
+            <button class="operacion" data-operacion="-">−</button>
+            <button class="operacion" data-operacion="*">×</button>
+            <button class="operacion" data-operacion="/">÷</button>
+
+        </div>
+
+        <!-- Acciones -->
+        <div class="acciones">
+
+    <button id="borrar">C</button>
+
+    <button id="borrarUno">⌫</button>
+
+    <button id="igual">=</button>
+
+</div>
+
+        </div>
+
+        <div class="firma">
+            Hecho por Iara Lupi
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
