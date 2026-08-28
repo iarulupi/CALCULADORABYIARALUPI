@@ -11,11 +11,15 @@ body {
 
     align-items: center;
 
-    height: 100vh;
+    min-height: 100vh;
 
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
 
     box-sizing: border-box;
+
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .calculadora {
