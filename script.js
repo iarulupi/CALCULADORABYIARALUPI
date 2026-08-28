@@ -71,18 +71,19 @@ function mostrarPantalla() {
         }
 
 
-        // NÚMERO
-        if (elemento.tipo === "numero") {
+       // NÚMERO
+if (elemento.tipo === "numero") {
 
-            const numeroElemento = document.createElement("span");
+    const numeroElemento = document.createElement("span");
 
-            numeroElemento.textContent = elemento.valor;
+    const numeroFormateado = Number(elemento.valor).toLocaleString("es-AR");
 
-            numeroElemento.classList.add("numero-pantalla");
+    numeroElemento.textContent = numeroFormateado;
 
-            pantalla.appendChild(numeroElemento);
-        }
+    numeroElemento.classList.add("numero-pantalla");
 
+    pantalla.appendChild(numeroElemento);
+}
     });
 
 }
