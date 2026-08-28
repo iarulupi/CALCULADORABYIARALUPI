@@ -234,8 +234,8 @@ botonIgual.addEventListener("click", () => {
 
         resultadoTexto.classList.add("resultado");
 
-        resultadoTexto.textContent = resultado;
-
+        resultadoTexto.textContent = Number(resultado).toLocaleString("es-AR");
+       
         pantalla.appendChild(resultadoTexto);
 
         operacion = resultado.toString();
